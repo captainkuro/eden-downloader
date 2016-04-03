@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eden Downloader</title>
+	<link rel="stylesheet" href="scripts/bootstrap.min.css" />
+	<link rel="stylesheet" href="scripts/sticky-footer.css" />
+	<link rel="stylesheet" href="scripts/chosen.min.css" />
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/chosen.jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">	
+		<h2>Select Manga, Chapter, Directory</h2>
+
+		<div id="image-loading">
+			<div></div>
+			<img src="images/loading.gif" width=100 height=100>
+		</div>
+		
+		<p>
+			<select id="select-manga">
+				<option>-- Choose Manga --</option>
+			</select>
+		</p>
+
+		<p>
+			<select id="select-chapter">
+				<option>-- Choose Chapter --</option>
+			</select>
+		</p>
+
+		<p>
+			<input type="file" nwdirectory id="input-directory"/>
+			<button id="button-download" type="button">Download</button>
+			<button id="button-clear-completed" type="button">Clear Completed</button>
+		</p>
+
+		<div id="download-status"></div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<textarea id="text-debug" cols="90" rows="3" placeholder="Debug window"></textarea>
+		</div>
+	</footer>
+	
+	<script src="app.js"></script>
+</body>
+</html>

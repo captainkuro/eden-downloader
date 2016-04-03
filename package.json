@@ -1,0 +1,15 @@
+{
+  "name": "Eden",
+  "version": "1.0.0",
+  "main": "index.html",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "request": "^2.69.0"
+  },
+  "window": {
+    "toolbar": false,
+    "icon": "eden.png",
+    "width": 1024,
+    "height": 800
+  }
+}
