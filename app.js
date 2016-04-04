@@ -1,5 +1,4 @@
 var request = require('request');
-var createDownload = require('mt-downloader').createDownload;
 var path = require('path');
 var http = require('http');
 var fs = require('fs');
